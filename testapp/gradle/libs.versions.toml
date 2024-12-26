@@ -1,0 +1,40 @@
+[versions]
+activityCompose = "1.9.3"
+awsAndroidSdkCognitoidentityprovider = "2.19.0"
+composeBom = "2024.12.01"
+coreKtx = "1.15.0"
+customtabs = "28.0.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+lifecycleRuntimeKtx = "2.8.7"
+playServicesLocation = "21.3.0"
+espressoCore = "3.6.1"
+roomCompilerProcessingTesting = "2.6.1"
+core = "1.15.0"
+foundationLayoutAndroid = "1.7.6"
+material3Android = "1.3.1"
+activityKtx = "1.9.3"
+compilercommon = "3.2.0-alpha11"
+[libraries]
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+aws-android-sdk-cognitoidentityprovider = { module = "com.amazonaws:aws-android-sdk-cognitoidentityprovider", version.ref = "awsAndroidSdkCognitoidentityprovider" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+customtabs = { module = "com.android.support:customtabs", version.ref = "customtabs" }
+ext-junit = { module = "androidx.test.ext:junit", version.ref = "junitVersion" }
+junit = { module = "junit:junit", version.ref = "junit" }
+lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+material3 = { module = "androidx.compose.material3:material3" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+ui = { module = "androidx.compose.ui:ui" }
+ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+room-compiler-processing-testing = { group = "androidx.room", name = "room-compiler-processing-testing", version.ref = "roomCompilerProcessingTesting" }
+core = { group = "androidx.core", name = "core", version.ref = "core" }
+foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundationLayoutAndroid" }
+material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3Android" }
+activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
+compilercommon = { group = "androidx.databinding", name = "compilerCommon", version.ref = "compilercommon" }
+[plugins]

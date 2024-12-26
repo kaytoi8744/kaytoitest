@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel=”alternate” href=”kaytoi://kaytoi8744/1111″ />
+  <meta charset="utf-8" />
+  <title>Sign In</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    textarea {
+      width: 500px;
+    }
+  </style>
+</head>
+<body>
+<div id="app">
+  <h1>Sign In</h1>
+  <form id="sign-in">
+    <table>
+      <tr>
+        <td>email</td>
+        <td><input type="email" id="email" /></td>
+      </tr>
+      <tr>
+        <td>password</td>
+        <td><input type="password" id="password" /></td>
+      </tr>
+    </table>
+    <div>
+      <button type="submit">sign-in</button>
+    </div>
+  </form>
+  <div class="result">
+    <div>id-token</div>
+    <textarea id="id-token" readonly></textarea>
+  </div>
+</div>
+<script src="sign-in.bundle.js"></script>
+</body>
+</html>
